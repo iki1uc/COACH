@@ -1,37 +1,40 @@
-# COACH · tmp.coach
+# COACH · Lebens-Ordner System
 
-COACH ist ein kleines System, das Lebensbereiche in klare Ordner sortiert.
-Jede Zeile in `tmp.coach` ist ein eigener Lebens-Ordner, den ein Nutzer
-leicht verstehen und nutzen kann.
-
-## Lebens-Ordner (Kurzfassung)
-
-### Mobilität & Bewegung
-Auto, Fahrrad, ÖPNV, Führerschein, Reisen, Pendeln, Flex-Mobilität, Notfall-Mobilität
-
-### Wohnen & Zuhause
-Miete, Wohnung, Haus, Eigentum, Haushalt, Nachbarn, Umzug, Energie
-
-### Arbeit & Zukunft
-Job, Arbeitslos, Jobwechsel, Weiterbildung, Arbeitszeiten, Team, Chef, Geld
-
-### Persönlichkeit & Alltag
-Interessen, Gesundheit, Finanzen, Freizeit, Ziele, Stress, Soziales, Digitales
-
-Diese Ordner helfen dabei, das eigene Leben zu sortieren und zu verstehen.
-
-## Vergangenheit & Neustart (Kurz)
-Fehler = Erfahrung.  
-Chaos = Grund für Struktur.  
-Verlust = Startpunkt für Stärke.
-
-## Mehr Details
-Für ausführliche Erklärungen siehe:
-- **doc B** – Lebens-Ordner erklärt
-- **doc C** – Coach-Logik & Neustart-Modul
+COACH ist ein kleines, leicht verständliches System, das das Leben in klare
+Bereiche sortiert. Jede Datei im Repository zeigt einen Teil der Struktur:
+- `index.html` → Startseite / Übersicht
+- `ID.html` → System-Identität (2me / iki1uc)
+- `tmp.coach` → Lebens-Ordner in Rohform
 
 ## Zweck
-COACH soll Nutzern helfen, ihr Leben klarer zu sehen,
-Schritte zu planen und Ordnung zu finden – einfach und verständlich.
+COACH hilft dabei, Ordnung zu schaffen:
+- im Alltag
+- im Job
+- bei Terminen (z. B. Jobcenter / Arbeitsamt)
+- in persönlichen Bereichen
+- in Motivation und Struktur
 
-MIT lizens © iki1uc wieimmer
+Das System ist bewusst einfach gehalten, damit jeder es nutzen kann.
+
+## Lebens-Ordner (Kurz)
+- Mobilität & Bewegung  
+- Wohnen & Zuhause  
+- Arbeit & Zukunft  
+- Persönlichkeit & Alltag  
+
+Jeder Ordner steht für einen wichtigen Lebensbereich.
+
+## Hilfe-Module
+- **AGP** – Allgemeine Hilfe-Punkte  
+- **HELP** – Soforthilfe  
+- **Jobcenter/Arbeitsamt** – zeigt Ernsthaftigkeit, Struktur und korrekte Haltung  
+
+Diese Module sollen Nutzern helfen, klar und organisiert zu handeln.
+
+## Weitere Dokumentation
+Für Details siehe:
+- **doc B** – Erklärung der Lebens-Ordner  
+- **doc C** – Coach-Logik & Neustart-Modul  
+
+## Lizenz
+MIT Lizenz © iki1uc
