@@ -1,40 +1,37 @@
-# 2me – Mirror-Root (iki1uc)
+# COACH · tmp.coach
 
-2me ist die Rückkehr-Einheit des iki1uc-Systems.
-Sie spiegelt alle Systemachsen zurück auf den User:
+COACH ist ein kleines System, das Lebensbereiche in klare Ordner sortiert.
+Jede Zeile in `tmp.coach` ist ein eigener Lebens-Ordner, den ein Nutzer
+leicht verstehen und nutzen kann.
 
-- PX3 / PX6 / PX9 (PX-TRIO)
-- PX12 / PX4 (Fusion + Achse)
-- SYS / SYS-x (System + Kreuzung)
-- TEM (Zeit)
-- UI-SCANNER (Interface)
-- GEO (O12 / Φ4 / XU / TΩ)
+## Lebens-Ordner (Kurzfassung)
 
-2me erzeugt:
-- Mirror-Return
-- User-Bindung
-- Orbit-Rückführung
-- Root-Synchronisation
+### Mobilität & Bewegung
+Auto, Fahrrad, ÖPNV, Führerschein, Reisen, Pendeln, Flex-Mobilität, Notfall-Mobilität
 
------------------------------------------
-# FUNKTION
+### Wohnen & Zuhause
+Miete, Wohnung, Haus, Eigentum, Haushalt, Nachbarn, Umzug, Energie
 
-2me(x):
-    return `2me(${x})`
+### Arbeit & Zukunft
+Job, Arbeitslos, Jobwechsel, Weiterbildung, Arbeitszeiten, Team, Chef, Geld
 
------------------------------------------
-# SYSTEM-CYCLE
+### Persönlichkeit & Alltag
+Interessen, Gesundheit, Finanzen, Freizeit, Ziele, Stress, Soziales, Digitales
 
-SYS-x → 2me → PX3
+Diese Ordner helfen dabei, das eigene Leben zu sortieren und zu verstehen.
 
------------------------------------------
-# MODULE
+## Vergangenheit & Neustart (Kurz)
+Fehler = Erfahrung.  
+Chaos = Grund für Struktur.  
+Verlust = Startpunkt für Stärke.
 
-ID.html     – Identität  
-index.html  – Mirror-Interface  
-2me.js      – Mirror-Funktion  
+## Mehr Details
+Für ausführliche Erklärungen siehe:
+- **doc B** – Lebens-Ordner erklärt
+- **doc C** – Coach-Logik & Neustart-Modul
 
------------------------------------------
-# STATUS
+## Zweck
+COACH soll Nutzern helfen, ihr Leben klarer zu sehen,
+Schritte zu planen und Ordnung zu finden – einfach und verständlich.
 
-2me ist aktiv, eigenständig und vollständig iki1uc.
+MIT lizens © iki1uc wieimmer
