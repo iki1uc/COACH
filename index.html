@@ -3,76 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>COACH · Lebens-Ordner · Soccer Edition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
         body {
-            background: #0b0b0b;
-            color: #eaeaea;
             font-family: Arial, sans-serif;
+            background: #0b0b0b;
             margin: 0;
             padding: 0;
-            text-align: center;
+            color: #eaeaea;
         }
 
         header {
-            padding: 40px 0;
-            font-size: 32px;
-            font-weight: bold;
-            letter-spacing: 1px;
+            background: #111;
+            padding: 30px 0;
+            text-align: center;
+            border-bottom: 3px solid #00ff88;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 34px;
             color: #00ff88;
+            letter-spacing: 1px;
         }
 
-        .sub {
-            font-size: 18px;
+        header p {
+            margin: 5px 0 0;
             opacity: 0.8;
-            margin-top: -10px;
         }
 
-        .soccer-field {
-            width: 90%;
+        .container {
             max-width: 900px;
-            margin: 40px auto;
-            padding: 40px;
-            border: 3px solid #00ff88;
-            border-radius: 20px;
-            background: #0f0f0f;
+            margin: 30px auto;
+            background: #141414;
+            padding: 25px;
+            border-radius: 12px;
             box-shadow: 0 0 20px #00ff88;
         }
 
-        .ball {
+        h2 {
+            margin-top: 40px;
+            color: #00ff88;
+            font-size: 26px;
+        }
+
+        h3 {
+            margin-top: 25px;
+            color: #00ff88;
+            font-size: 20px;
+        }
+
+        .ordner {
+            background: #1e1e1e;
+            padding: 12px 15px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border-left: 4px solid #00ff88;
+        }
+
+        a {
+            color: #00ff88;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .soccer-ball {
             font-size: 80px;
+            text-align: center;
             margin: 20px 0;
         }
 
-        .zones {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 40px;
-            flex-wrap: wrap;
-        }
-
-        .zone {
-            width: 40%;
-            min-width: 200px;
-            margin: 20px;
-            padding: 20px;
-            border: 2px solid #00ff88;
-            border-radius: 12px;
-            background: #111;
-            box-shadow: 0 0 10px #00ff88;
-        }
-
-        .zone-title {
-            font-size: 20px;
-            margin-bottom: 10px;
-            color: #00ff88;
-        }
-
         footer {
-            margin-top: 60px;
-            padding: 20px;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            color: #888;
             font-size: 14px;
-            opacity: 0.6;
         }
     </style>
 </head>
@@ -80,41 +91,25 @@
 <body>
 
 <header>
-    COACH · Lebens‑Ordner System
-    <div class="sub">Soccer Edition · iki1uc</div>
+    <h1>COACH · Lebens-Ordner</h1>
+    <p>Soccer Edition · iki1uc</p>
 </header>
 
-<div class="soccer-field">
-    <div class="ball">⚽</div>
+<div class="container">
 
-    <div class="zones">
+    <div class="soccer-ball">⚽</div>
 
-        <div class="zone">
-            <div class="zone-title">Mobilität & Bewegung</div>
-            <p>Training, Wege, Struktur, Rhythmus.</p>
-        </div>
+    <h2>Coach starten</h2>
+    <p>Der COACH führt dich klar durch alle Lebens-Ordner.</p>
+    <p><a href="tmp.coach">→ tmp.coach öffnen</a></p>
 
-        <div class="zone">
-            <div class="zone-title">Wohnen & Zuhause</div>
-            <p>Ordnung, Ruhe, Stabilität, Alltag.</p>
-        </div>
+    <h2>Lebens-Ordner</h2>
 
-        <div class="zone">
-            <div class="zone-title">Arbeit & Zukunft</div>
-            <p>Jobcenter, Termine, Planung, Fokus.</p>
-        </div>
-
-        <div class="zone">
-            <div class="zone-title">Persönlichkeit & Alltag</div>
-            <p>Motivation, Haltung, Neustart‑Modus.</p>
-        </div>
-
-    </div>
-</div>
-
-<footer>
-    COACH · iki1uc · MIT Lizenz · Lebens‑Ordner System
-</footer>
-
-</body>
-</html>
+    <h3>Mobilität & Bewegung</h3>
+    <div class="ordner">Auto – Besitz, Kosten, Versicherung, Verantwortung</div>
+    <div class="ordner">Fahrrad – Wartung, Sicherheit, Alltag</div>
+    <div class="ordner">ÖPNV – Tickets, Pünktlichkeit, Verhalten</div>
+    <div class="ordner">Führerschein – Regeln, Prüfungen, Pflichten</div>
+    <div class="ordner">Reisen – Planung, Budget, Zeit</div>
+    <div class="ordner">Pendeln – Arbeitsweg, Alternativen</div>
+    <div class="ordner">Flex-Mobilität –
